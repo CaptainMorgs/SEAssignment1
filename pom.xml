@@ -4,32 +4,6 @@
   <artifactId>student_reg</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <!-- <distributionManagement>  
-    <repository>
-        <id>dropbox-mvn-repo</id>
-        <url>file:///C:/Users/John/Dropbox/dropbox-mvn-repo</url>
-    </repository>
-</distributionManagement> -->
-
- <!-- <repositories>  
-    <repository>
-        <id>dropbox-mvn-repo</id>
-        <name>My Dropbox Repository</name>
-        <url>
-             https://www.dropbox.com/sh/d1ei4f1vngwy8bs/AACy8bB0NNGBHNIsj6CZ4n7Aa?dl=0
-        </url>
-    </repository>
-    <repository>
-        <id>normal repo</id>
-        <name>Normal Repo</name>
-        <url>
-			https://mvnrepository.com       
-			 </url>
-    </repository>
-</repositories>   -->
-
-
-
   <dependencies>
 	<dependency>
 	    <groupId>joda-time</groupId>
@@ -50,31 +24,4 @@
 	</dependency>
   </dependencies>
   
-  <build>
-  
-  <plugins>
-    <plugin>
-  <artifactId>maven-assembly-plugin</artifactId>
-  <configuration>
-    <archive>
-      <manifest>
-        <mainClass>fully.qualified.MainClass</mainClass>
-      </manifest>
-    </archive>
-    <descriptorRefs>
-      <descriptorRef>jar-with-dependencies</descriptorRef>
-    </descriptorRefs>
-  </configuration>
-  <executions>
-    <execution>
-      <id>make-assembly</id> <!-- this is used for inheritance merges -->
-      <phase>package</phase> <!-- bind to the packaging phase -->
-      <goals>
-        <goal>single</goal>
-      </goals>
-    </execution>
-  </executions>
-</plugin>
-  </plugins>
-</build>
 </project>
