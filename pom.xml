@@ -4,12 +4,12 @@
   <artifactId>student_reg</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <distributionManagement>  
+  <!-- <distributionManagement>  
     <repository>
         <id>dropbox-mvn-repo</id>
         <url>file:///C:/Users/John/Dropbox/dropbox-mvn-repo</url>
     </repository>
-</distributionManagement>
+</distributionManagement> -->
 
  <!-- <repositories>  
     <repository>
@@ -27,6 +27,8 @@
 			 </url>
     </repository>
 </repositories>   -->
+
+
 
   <dependencies>
 	<dependency>
